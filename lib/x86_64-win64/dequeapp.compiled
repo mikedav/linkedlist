@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <Compiler Value="C:\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1351329191"/>
-  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FiC:\Users\Mikhail\Desktop\brutus\freepascal\deque-master\lib\x86_64-win64 -FuC:\Users\Mikhail\Desktop\brutus\freepascal\deque-master\ -FUC:\Users\Mikhail\Desktop\brutus\freepascal\deque-master\lib\x86_64-win64\ -FEC:\Users\Mikhail\Desktop\brutus\freepascal\deque-master\ -oC:\Users\Mikhail\Desktop\brutus\freepascal\deque-master\dequeapp.exe dequeapp.lpr"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FiC:\Users\Mikhail\Desktop\brutus\freepascal\dell\linkedlist\lib\x86_64-win64 -FuC:\Users\Mikhail\Desktop\brutus\freepascal\dell\linkedlist\ -FUC:\Users\Mikhail\Desktop\brutus\freepascal\dell\linkedlist\lib\x86_64-win64\ -FEC:\Users\Mikhail\Desktop\brutus\freepascal\dell\linkedlist\ -oC:\Users\Mikhail\Desktop\brutus\freepascal\dell\linkedlist\dequeapp.exe dequeapp.lpr"/>
 </CONFIG>

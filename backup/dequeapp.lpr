@@ -65,6 +65,16 @@ begin
               write(query);
                k:=readkey;
                if k=#13 then break
+               else if (k=#9) then begin
+
+        for i:=1 to 8 do begin
+           if(leftstr(dict[i],length(chopped[0]))=chopped[0]) then begin
+             legit:=true;
+             break;
+           end;
+        end;
+        query:=dict[i];
+                 end
                else if k=#8 then query:=leftstr(query, length(query)-1)
                else if  k=#0 then begin
                  k:=readkey;
@@ -112,7 +122,7 @@ begin
                     begin
                        writeln('Value wasn`t provided, use help. Press Enter to continue.');readln;
                     end
-                 else writeln('Index out of bounds. Press Enter to continue.');readln;
+                 else begin writeln('Index out of bounds. Press Enter to continue.');readln; end;
               end else begin write('Value or index wasn`t provided or couldnt be converted to integer. Press Enter to continue'); readln; end;
         end else begin
               writeln;

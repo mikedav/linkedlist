@@ -65,6 +65,16 @@ begin
               write(query);
                k:=readkey;
                if k=#13 then break
+               else if (k=#9) then begin
+
+        for i:=1 to 8 do begin
+           if(leftstr(dict[i],length(query))=query) then begin
+             legit:=true;
+             break;
+           end;
+        end;
+        query:=dict[i];
+                 end
                else if k=#8 then query:=leftstr(query, length(query)-1)
                else if  k=#0 then begin
                  k:=readkey;
